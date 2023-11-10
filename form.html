@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Geologica:wght@100;200;300;400;500;600;700;800;900&family=Kanit:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,600;1,700;1,800;1,900&family=Noto+Sans:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="CSS/styles.css">
+</head>
+<body>
+    <section class="formWrap">
+        <form class="form" action="/action_page.php" autocomplete="on" method="post">
+            <h3>
+                Залиште ваш Відгук!
+            </h3>
+            <label for="nameForm">Ваше ім'я:</label>
+            <input type="text" id="nameForm" name="nameForm" autocomplete="on" placeholder="Введіть ваше ім'я" required>
+            <label for="emailForm">Ваша пошта:</label>
+            <input type="email" id="emailForm" name="emailForm" placeholder="Введіть ваш email" autocomplete="on" required>
+            <label for="textareaForm">Ваш відгук:</label>
+            <textarea id="textareaForm" name="textareaForm" placeholder="Введіть ваш відгук" autocomplete="on" rows="10" cols="33" required></textarea>
+            <input type="submit" value="ВІДПРАВИТИ">
+        </form>
+    </section>
+</body>
+</html>
