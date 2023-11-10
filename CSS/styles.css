@@ -55,6 +55,8 @@ header {
     text-transform: uppercase;
     font-weight: 400;
     text-shadow: 5px 5px 12px rgb(99, 99, 99);
+
+    border-bottom: 1px solid white;
 }
 
 nav.nav {
